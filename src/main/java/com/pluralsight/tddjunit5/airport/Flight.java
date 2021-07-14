@@ -7,7 +7,7 @@ import java.util.List;
 public class Flight {
 
 	private String id;
-	private List<Passenger> passengersList = new ArrayList<Passenger>();
+	private List<Passenger> passengersList = new ArrayList<>();
 	private String flightType;
 
 	public Flight(String id, String flightType) {
@@ -45,7 +45,7 @@ public class Flight {
 	public boolean removePassenger(Passenger passenger) {
 		switch (flightType) {
 			case "Economy":
-				if (passenger.isVip()) {
+				if (!passenger.isVip()) {
 					return passengersList.remove(passenger);
 				}
 				return false;
