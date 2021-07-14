@@ -1,25 +1,24 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-    http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.pluralsight</groupId>
-	<artifactId>tddjunit5</artifactId>
-	<packaging>jar</packaging>
-	<version>1.0.0-SNAPSHOT</version>
-	<name>TDD with JUnit 5</name>
-	<description>At the core of every project, there is always extensive testing. In this course, TDD with JUnit 5,
-		you’ll learn the benefits of TDD (Test-Driven Development) and help you create TDD applications using the JUnit
-		5 testing framework. First, you'll learn how to develop TDD applications and how to use mock objects with JUnit
-		5. Next, you'll discover how to move a non-TDD application into the platform. Finally, you'll dive into how to
-		integrate JUnit5 into your workflow. By the end of this course, you'll have the know how to develop safe and
-		flexible Java applications using TDD with JUnit 5.
-	</description>
-	<url>https://app.pluralsight.com/library/courses/tdd-junit5/table-of-contents</url>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.pluralsight</groupId>
+    <artifactId>tddjunit5</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>TDD with JUnit 5</name>
+    <description>At the core of every project, there is always extensive testing. In this course, TDD with JUnit 5,
+        you’ll learn the benefits of TDD (Test-Driven Development) and help you create TDD applications using the JUnit
+        5 testing framework. First, you'll learn how to develop TDD applications and how to use mock objects with JUnit
+        5. Next, you'll discover how to move a non-TDD application into the platform. Finally, you'll dive into how to
+        integrate JUnit5 into your workflow. By the end of this course, you'll have the know how to develop safe and
+        flexible Java applications using TDD with JUnit 5.
+    </description>
+    <url>https://app.pluralsight.com/library/courses/tdd-junit5/table-of-contents</url>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
 </project>
